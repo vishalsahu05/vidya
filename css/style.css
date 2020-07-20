@@ -1,0 +1,23 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ }
+ .btn{
+ 	margin-bottom: 25vh;
+ }
+ .topnav a:hover {
+    border-bottom: 3px solid red;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #bd2130;
+}
+.nav-pills .nav-link {
+    border-radius: 20rem;
+}
+.nav-pills a{
+	color: white;
+}
