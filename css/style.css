@@ -1,8 +1,10 @@
 p{
-  font-family: "sans-serif"
+  font-family: "sans-serif";
 }
 
-
+h2, h4{
+  color: black;
+}
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -12,7 +14,7 @@ p{
   -o-background-size: cover;
  }
  .carousel-inner img {
-     max-width: 100%; 
+max-width: 100%;
 display:block; 
 height: auto;
     }
@@ -32,4 +34,21 @@ height: auto;
 }
 .nav-pills a{
 	color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+   .carousel-inner img {
+    max-width: auto;
+display:block; 
+height: 100%;
+    }
+ 
+}
+@media only screen and (max-width: 600px) {
+.listenh{
+  font-size: 6vh;
+}
+.lead{
+  font-size: 14px;
+}
 }
