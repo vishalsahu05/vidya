@@ -1,6 +1,14 @@
 p{
   font-family: "sans-serif";
 }
+.carousel {
+    height: 100vh;
+    width: 100%;
+    overflow:hidden;
+}
+.carousel .carousel-inner {
+    height:100%;    
+}
 
 h2, h4{
   color: black;
