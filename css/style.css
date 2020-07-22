@@ -1,9 +1,13 @@
 p{
-  font-family: "sans-serif";
+  font-family: "Open Sans", sans-serif;
 }
 
 h2, h4{
   color: black;
+}
+
+p{
+  color:#ffffff;
 }
 .carousel-item {
   height: 100vh;
@@ -35,20 +39,42 @@ height: auto;
 .nav-pills a{
 	color: white;
 }
+@media only screen and (min-width: 1100px) {
+.landing2{
+padding-right: 15%;
+padding-left: 15%;
+
+}
+.landingbutton{
+margin-bottom: 6% !important;
+}
+}
+
 
 @media only screen and (max-width: 1000px) {
    .carousel-inner img {
-    max-width: auto;
+    max-width: 150%;
 display:block; 
 height: 100%;
     }
  
 }
-@media only screen and (max-width: 600px) {
-.listenh{
-  font-size: 6vh;
+
+
+@media only screen and (max-width: 650px) {
+.landing2{
+  font-size: 6.2vh;
 }
+
 .lead{
   font-size: 14px;
 }
+}
+@media only screen and (min-width: 650px) {
+.landing2{
+  font-size: 9.2vh;
+}
+
+.lead{
+  font-size: 18px;
 }
