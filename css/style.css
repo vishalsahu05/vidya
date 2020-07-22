@@ -1,5 +1,6 @@
 p{
   font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px rgba(12,123,255,.5);
 }
 
 h2, h4{
@@ -39,11 +40,10 @@ height: auto;
 .nav-pills a{
 	color: white;
 }
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
 .landing2{
 padding-right: 15%;
 padding-left: 15%;
-
 }
 .landingbutton{
 margin-bottom: 6% !important;
@@ -67,7 +67,7 @@ height: 100%;
 }
 
 .lead{
-  font-size: 14px;
+  font-size: 15.9px;
 }
 }
 @media only screen and (min-width: 650px) {
@@ -76,5 +76,5 @@ height: 100%;
 }
 
 .lead{
-  font-size: 18px;
+  font-size: 1.2rem;
 }
